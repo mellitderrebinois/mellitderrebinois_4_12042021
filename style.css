@@ -775,11 +775,15 @@ h4 {
 }
 
 .tc-white {
-    color: #FF7F50!important;
+    color: white!important;
+}
+
+.text-center .hero-bloc-text .tc-white{
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #FF7F50;
+    background: #FF4500;
     color: #FFFFFF!important;
 }
 
