@@ -317,8 +317,8 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
-    float: right;
+    padding: 1rem;
+    
     z-index: 1;
 }
 
@@ -326,6 +326,8 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    padding-left: 1.5rem;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -366,7 +368,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+       right: 10%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -681,8 +683,9 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    
     margin: auto auto auto auto;
+   font-size: 1.5rem;
 }
 
 .h1 {
@@ -776,6 +779,7 @@ h4 {
 
 .tc-white {
     color: white!important;
+    
 }
 
 .text-center .hero-bloc-text .tc-white{
@@ -785,6 +789,8 @@ h4 {
 .btn-atomic-tangerine {
     background: #FF4500;
     color: #FFFFFF!important;
+    font-size: 2rem;
+    
 }
 
 .btn-atomic-tangerine:hover {
