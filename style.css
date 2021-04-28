@@ -7,6 +7,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/*rajouté*/
+
+
+.fa:before{
+    color: white;
+   
+}
+
+.row{
+    width: 100%;
+}
+/*rajouté*/
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -81,7 +94,7 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
-    content: "";
+    
     background-size: 2px 2px;
     position: absolute;
     top: 0;
@@ -677,7 +690,9 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
+    text-align: center;
+
 }
 
 .tight-width-whitespace {

@@ -2010,10 +2010,7 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
+
 
 .col-lg-1,
 .col-lg-10,
@@ -2304,7 +2301,8 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
+      
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -2322,7 +2320,11 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width:50%;
+        
+        
+        
+        
     }
     .col-sm-5 {
         width: 41.66666667%
