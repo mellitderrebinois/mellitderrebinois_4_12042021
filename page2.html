@@ -44,18 +44,7 @@
                   height="40"
               /></a>
 
-              <button
-                id="nav-toggle"
-                type="button"
-                class="ui-navbar-toggle navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-1"
-              >
-                <span class="sr-only"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+              
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
@@ -108,11 +97,11 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label id="nom"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label id="mail"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -121,7 +110,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label id="connaissance"> Comment nous avez-vous connu ? </label>
                   <input
                     class="form-control"
                     type="email"
@@ -130,7 +119,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label id="brief">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -179,28 +168,28 @@
                 <div class="col-sm-3">
                   <div class="text-center">
                     <a class="social" href="https://twitter.com/"
-                      ><span class="fa fa-twitter icon-md"></span
+                      ><span class="fa fa-twitter icon-md"><p class="text-center white">Twitter</p></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
                     <a class="social" href="https://www.facebook.com/"
-                      ><span class="fa fa-facebook icon-md"></span
+                      ><span class="fa fa-facebook icon-md"><p class="text-center white">Facebook</p></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
                     <a class="social" href="https://www.google.com/"
-                      ><span class="fa fa-dribbble icon-md"></span
+                      ><span class="fa fa-dribbble icon-md"><p class="text-center white">Google</p></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
                     <a class="social" href="https://www.instagram.com/"
-                      ><span class="fa fa-instagram icon-md"></span
+                      ><span class="fa fa-instagram icon-md"><p class="text-center white">Instagram</p></span
                     ></a>
                   </div>
                 </div>
